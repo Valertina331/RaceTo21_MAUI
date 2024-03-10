@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="RaceTo21_MAUI.app/Contents/MacOS/RaceTo21_MAUI">
+      <BCSymbolMapName>RaceTo21_MAUI.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>RaceTo21_MAUI.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/valentinalee/Projects/RaceTo21_MAUI/RaceTo21_MAUI/obj/Debug/net7.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>RaceTo21_MAUI.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/valentinalee/Projects/RaceTo21_MAUI/RaceTo21_MAUI</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

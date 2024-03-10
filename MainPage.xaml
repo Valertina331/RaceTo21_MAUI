@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RaceTo21_MAUI.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout x:Name="Main"
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+            <Label x:Name="GameTitle" Text="Race To 21"
+                    FontFamily="BitMono" FontSize="Large" HorizontalOptions="Center" IsVisible="True" />
+            <Button x:Name="StartButton" Text="Start" WidthRequest="180" 
+                    FontFamily="BitMono" FontSize="Large" HorizontalOptions="Center"
+                    Clicked="StartButton_Clicked" IsVisible="True" />
+
+            <Label x:Name="AskForPlayerNum" Text="How many players?"
+                    FontFamily="BitMono" FontSize="Large" HorizontalOptions="Center" IsVisible="False" />
+            <Entry x:Name="PlayerNum" Placeholder="Enter 2-6 players"
+                    HorizontalTextAlignment="Center" FontFamily="BitMono" FontSize="Large" IsVisible="False" />
+            <Button x:Name="Enter1" Text="Enter"
+                    FontFamily="BitMono" FontSize="Large" HorizontalOptions="Center"
+                    Clicked="Enter1_Clicked" IsVisible="False"/>
+
+            <Label x:Name="TurnLabel" Text="Round: 1" FontSize="Large" HorizontalOptions="End" IsVisible="False" FontFamily="BitMono" />
+            <Label x:Name="WinnerLabel" FontSize="Large" FontFamily="BitMono" HorizontalTextAlignment="Center" IsVisible="False"  />
+            <Button x:Name="ContinueButton" Text="Continue" FontFamily="BitMono" FontSize="Large" IsVisible="False" HorizontalOptions="Center"
+                    Clicked="ContinueButton_Clicked"/>
+
+            <FlexLayout x:Name="PlayersInfo"
+                        Padding="10"
+                        Direction="Row" Wrap="Wrap"
+                        AlignItems="Center" JustifyContent="Center" Margin="10">
+                <!--Players info-->
+            </FlexLayout>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+    
+</ContentPage>
